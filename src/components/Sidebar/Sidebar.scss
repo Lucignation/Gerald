@@ -1,0 +1,18 @@
+@import '../../../public/css/color.scss';
+
+.side-bar {
+  z-index: 3500 !important;
+  position: fixed;
+  right: 2%;
+  top: 25%;
+}
+
+.sidebar-icon {
+  font-size: 1.3rem;
+  color: white;
+  background-color: $primary-second;
+  z-index: 3500;
+  margin-bottom: 60%;
+  padding: 13px;
+  border-radius: 50%;
+}

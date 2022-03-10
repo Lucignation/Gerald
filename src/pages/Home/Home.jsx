@@ -1,4 +1,5 @@
 import './Home.scss';
+import withCursor from '../../HOC/withCursor';
 
 const Home = () => {
   return (
@@ -34,4 +35,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default withCursor(Home);
