@@ -1,7 +1,7 @@
 import './App.scss';
 import Gerald from './assets/img/olumide.jpg';
 
-function App() {
+const App = () => {
   return (
     <div className='min-h-full main'>
       <div className='left-content'>
@@ -27,6 +27,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
