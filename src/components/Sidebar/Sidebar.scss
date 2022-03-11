@@ -15,14 +15,17 @@
   margin-bottom: 60%;
   padding: 13px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .sidebar-icon-active {
+  transition: 0.5s ease-in-out;
   color: white;
-  background-color: $primary;
+  background-color: $secondary;
   font-size: 1.3rem;
   z-index: 3500;
   margin-bottom: 60%;
   padding: 13px;
   border-radius: 50%;
+  cursor: pointer;
 }

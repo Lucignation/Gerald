@@ -4,22 +4,41 @@ import { FaEnvelopeOpen, FaComments } from 'react-icons/fa';
 
 import './Sidebar.scss';
 
-const Sidebar = () => {
+const Sidebar = ({ setId, section }) => {
   return (
     <div className='side-bar'>
-      <div className='sidebar-icon'>
+      <div
+        onClick={() => setId('home')}
+        className={section === 'home' ? 'sidebar-icon-active' : 'sidebar-icon'}
+      >
         <FaHome />
       </div>
-      <div className='sidebar-icon'>
+      <div
+        onClick={() => setId('about')}
+        className={section === 'about' ? 'sidebar-icon-active' : 'sidebar-icon'}
+      >
         <FaUser />
       </div>
-      <div className='sidebar-icon'>
+      <div
+        onClick={() => setId('portfolio')}
+        className={
+          section === 'portfolio' ? 'sidebar-icon-active' : 'sidebar-icon'
+        }
+      >
         <BsBriefcaseFill />
       </div>
-      <div className='sidebar-icon'>
+      <div
+        onClick={() => setId('contact')}
+        className={
+          section === 'contact' ? 'sidebar-icon-active' : 'sidebar-icon'
+        }
+      >
         <FaEnvelopeOpen />
       </div>
-      <div className='sidebar-icon'>
+      <div
+        onClick={() => setId('blog')}
+        className={section === 'blog' ? 'sidebar-icon-active' : 'sidebar-icon'}
+      >
         <FaComments />
       </div>
     </div>
