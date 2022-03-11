@@ -483,3 +483,14 @@ code {
 .sp-widget-launcher {
   z-index: 5000;
 }
+
+.sp-widget-launcher-close,
+.sp-widget-launcher-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.sp-widget-launcher.sp-is-launcher-type-superpeer-logo {
+  width: 60px;
+  height: 60px;
+}
