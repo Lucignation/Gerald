@@ -2,8 +2,9 @@ import './Home.scss';
 import withCursor from '../../HOC/withCursor';
 
 const Home = () => {
+  const date = new Date();
   return (
-    <div>
+    <div id='home'>
       <div className='min-h-full main'>
         <div className='left-content'>
           {/* <img src={Gerald} alt='Gerald' className='left-content-img' /> */}
@@ -26,6 +27,18 @@ const Home = () => {
             <span>-</span>
           </div>
         </div>
+
+        <p className='footer-date'>
+          <span> &#169; {date.getFullYear()} Built with ❣️ by </span>
+          <a
+            href='https://www.linkedin.com/in/geraldolumide/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Gérald Olumide
+          </a>
+          <span> </span>
+        </p>
       </div>
 
       <div className='black-bg'></div>

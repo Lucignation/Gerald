@@ -30,7 +30,7 @@
   right: 0px;
   display: grid;
   grid-template-columns: 40% 60%;
-  clip-path: polygon(16% 0, 100% 0, 100% 100%, 26% 100%);
+  clip-path: polygon(9% 0, 100% 0, 100% 100%, 26% 100%);
   z-index: 700;
 }
 
@@ -51,6 +51,7 @@
   padding: 10px 35px;
   border-radius: 40px;
   width: 35%;
+  font-family: Poppins, sans-serif;
 
   &span {
     position: absolute;
@@ -74,7 +75,7 @@
 
 .developer-name {
   color: $secondary;
-  font-size: 3em;
+  font-size: 2.8em;
   margin-bottom: -2%;
 }
 
@@ -91,6 +92,12 @@
 .developer-name,
 .developer-title {
   font-weight: 900;
+  font-family: Poppins, sans-serif;
+}
+
+.developer-desc {
+  line-height: 2.1;
+  font-family: Poppins, sans-serif;
 }
 
 .developer-title {
@@ -98,16 +105,15 @@
 }
 
 .right-content {
-  width: 90%;
+  width: 80%;
   padding-top: 25%;
-  padding-left: 18%;
+  padding-left: 10%;
 
   &h1 {
     padding-bottom: 5%;
   }
 
   &p {
-    line-height: 1.2;
     margin-bottom: 10%;
   }
 }
@@ -115,9 +121,9 @@
 .left-content {
   background-color: $primary-second;
   box-shadow: 0 0 7px rgb(0 0 0 / 90%);
-  height: 80%;
+  height: 85%;
   margin-top: 10%;
-  width: 72%;
+  width: 68%;
   overflow: hidden;
   margin-left: 15%;
   background-image: url(../../assets/img/olumide.jpg);
@@ -128,5 +134,13 @@
 
 .left-content-img {
   background-position: center;
-  // ba
+}
+
+.footer-date {
+  color: $primary-white;
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
 }
