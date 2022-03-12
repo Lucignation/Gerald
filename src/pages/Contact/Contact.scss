@@ -1,0 +1,65 @@
+@import '../../../public/css/color.scss';
+
+.contact {
+  background-color: $primary;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  overflow-y: auto;
+  height: 100%;
+  padding-bottom: 3%;
+  scroll-behavior: smooth;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2%;
+  //   margin-top: 7%;
+  margin: 7%;
+}
+
+.email-address {
+  background-color: $primary-second;
+  color: $secondary;
+  padding: 1%;
+  border-radius: 4px;
+  margin-left: 1%;
+}
+
+.contact-info-title {
+  font-weight: 700;
+  font-size: 1.7em;
+  margin-bottom: 2%;
+}
+
+.contact-info-desc-lower {
+  font-family: Poppins, sans-serif;
+  line-height: 1.9;
+  margin-bottom: 2%;
+}
+
+.contact-info-desc {
+  margin-top: 14%;
+}
+
+.social-contact {
+  margin-top: 6%;
+}
+
+.contact-phone {
+  margin-top: 3%;
+  padding-bottom: 13%;
+  border-bottom: 1px solid #ffffff21;
+}
+
+.map-info {
+  color: $primary-white;
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-bottom: 3%;
+}

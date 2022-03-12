@@ -82,7 +82,7 @@ const Portfolios = () => {
               For <span className='about-me'>Developers</span>
             </h1>
             <p className='developer-package-lower'>
-              Built by developer for developers. React package that allows you
+              Built by a developer for developers. React package that allows you
               to get all locations in Nigeria which can easily be used in any
               React project.
             </p>
