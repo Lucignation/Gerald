@@ -29,3 +29,29 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+@media (max-width: 540px) {
+  .side-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    // grid-gap: 6%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: $primary-nav;
+    max-width: 100%;
+    // max-width: 100% !important;
+    margin-top: 80%;
+    padding-top: 4%;
+    padding-left: 3%;
+  }
+
+  .sidebar-icon,
+  .sidebar-icon-active {
+    font-size: 1.2rem;
+    margin-bottom: 60%;
+    margin-left: 10%;
+    width: 63%;
+    height: 52%;
+  }
+}
