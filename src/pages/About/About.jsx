@@ -90,19 +90,21 @@ const About = () => {
                   </h1>
                 </div>
 
-                {/* <div className='single-experience'>
-              <h1 className='experience-number'>
-                3<span className='experience-sign'>+</span>
-              </h1>
-              <h1 className='experience-word'>YEARS OF BACKEND EXPERIENCE</h1>
-            </div>
+                <div className='single-experience'>
+                  <h1 className='experience-number'>
+                    6<span className='experience-sign'>+</span>
+                  </h1>
+                  <h1 className='experience-word'>YEARS OF FREELANCING</h1>
+                </div>
 
-            <div className='single-experience'>
-              <h1 className='experience-number'>
-                3<span className='experience-sign'>+</span>
-              </h1>
-              <h1 className='experience-word'>YEARS OF BACKEND EXPERIENCE</h1>
-            </div> */}
+                <div className='single-experience'>
+                  <h1 className='experience-number'>
+                    10<span className='experience-sign'>+</span>
+                  </h1>
+                  <h1 className='experience-word'>
+                    YEARS WORKING WITH WORDPRESS
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
