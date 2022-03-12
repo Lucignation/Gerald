@@ -1,0 +1,11 @@
+@import '../../../public/css/color.scss';
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 3%;
+  font-size: 1.1rem;
+  color: $primary-white;
+}

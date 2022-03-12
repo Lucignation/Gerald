@@ -1,21 +1,24 @@
+import './Social.scss';
+import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
+
 const Social = () => {
   return (
     <ul>
       <li>
         <a href='https://linkedin.com/in/geraldolumide' target='_blank'>
-          LNKDI
+          <BsLinkedin />
         </a>
       </li>
 
       <li>
         <a href='https://github.com/lucignation' target='_blank'>
-          GITHUB
+          <BsGithub />
         </a>
       </li>
 
       <li>
         <a href='https://twitter.com/lucignation' target='_blank'>
-          TWITT
+          <BsTwitter />
         </a>
       </li>
     </ul>

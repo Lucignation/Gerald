@@ -1,6 +1,7 @@
 import './About.scss';
 import { AiOutlineCloudDownload } from 'react-icons/ai';
 import { motion } from 'framer-motion';
+import Social from '../../components/Social/Social';
 
 const About = () => {
   return (
@@ -66,6 +67,9 @@ const About = () => {
                   <AiOutlineCloudDownload />
                 </span>
               </div>
+              <div className='about-social'>
+                <Social />
+              </div>
             </div>
             <div>
               <div className='experiences'>
@@ -86,41 +90,19 @@ const About = () => {
                   </h1>
                 </div>
 
-                <div className='single-experience'>
-                  <h1 className='experience-number'>
-                    3<span className='experience-sign'>+</span>
-                  </h1>
-                  <h1 className='experience-word'>
-                    YEARS OF BACKEND EXPERIENCE
-                  </h1>
-                </div>
+                {/* <div className='single-experience'>
+              <h1 className='experience-number'>
+                3<span className='experience-sign'>+</span>
+              </h1>
+              <h1 className='experience-word'>YEARS OF BACKEND EXPERIENCE</h1>
+            </div>
 
-                <div className='single-experience'>
-                  <h1 className='experience-number'>
-                    3<span className='experience-sign'>+</span>
-                  </h1>
-                  <h1 className='experience-word'>
-                    YEARS OF BACKEND EXPERIENCE
-                  </h1>
-                </div>
-
-                <div className='single-experience'>
-                  <h1 className='experience-number'>
-                    3<span className='experience-sign'>+</span>
-                  </h1>
-                  <h1 className='experience-word'>
-                    YEARS OF BACKEND EXPERIENCE
-                  </h1>
-                </div>
-
-                <div className='single-experience'>
-                  <h1 className='experience-number'>
-                    3<span className='experience-sign'>+</span>
-                  </h1>
-                  <h1 className='experience-word'>
-                    YEARS OF BACKEND EXPERIENCE
-                  </h1>
-                </div>
+            <div className='single-experience'>
+              <h1 className='experience-number'>
+                3<span className='experience-sign'>+</span>
+              </h1>
+              <h1 className='experience-word'>YEARS OF BACKEND EXPERIENCE</h1>
+            </div> */}
               </div>
             </div>
           </div>
