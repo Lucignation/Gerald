@@ -27,6 +27,7 @@
 .black-bg {
   background: #111;
   position: absolute;
+  height: 100vh;
   top: 0px;
   bottom: 0px;
   left: 0px;
@@ -35,6 +36,7 @@
   grid-template-columns: 40% 60%;
   clip-path: polygon(9% 0, 100% 0, 100% 100%, 26% 100%);
   z-index: -1;
+  background-size: cover;
 }
 
 .main {
