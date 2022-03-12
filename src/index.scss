@@ -36,3 +36,11 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
+@media (max-width: 540px) {
+  .sp-widget-launcher.sp-is-launcher-type-superpeer-logo,
+  .sp-widget-launcher,
+  .sp-widget-launcher-close {
+    margin-top: -50% !important;
+  }
+}
