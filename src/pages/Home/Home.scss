@@ -9,21 +9,24 @@
   height: 4px;
   width: 40px;
   border-radius: 10px;
+  background-size: cover;
 }
 
 .orange-bg {
   background: rgb(255, 180, 0);
-  position: fixed;
+  position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  z-index: -700;
+  height: 100vh;
+  z-index: -2;
+  background-size: cover;
 }
 
 .black-bg {
   background: #111;
-  position: fixed;
+  position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
@@ -31,11 +34,11 @@
   display: grid;
   grid-template-columns: 40% 60%;
   clip-path: polygon(9% 0, 100% 0, 100% 100%, 26% 100%);
-  z-index: -500;
+  z-index: -1;
 }
 
 .main {
-  position: fixed;
+  // position: fixed;
   top: 0px;
   bottom: 0px;
   left: 0px;
@@ -43,7 +46,8 @@
   display: grid;
   grid-template-columns: 40% 60%;
   z-index: 3800;
-  overflow: hidden;
+
+  color: #fff;
 }
 
 .btn-more {
@@ -134,12 +138,12 @@
 }
 
 .left-content {
+  position: relative;
   background-color: $primary-second;
   box-shadow: 0 0 7px rgb(0 0 0 / 90%);
-  height: 110% !important;
+  height: 83vh;
   margin-top: 10%;
   width: 68%;
-  overflow: hidden;
   margin-left: 15%;
   background-image: url(../../assets/img/olumide.jpg);
   background-size: cover;
@@ -154,7 +158,7 @@
 .footer-date {
   color: $primary-white;
   position: fixed;
-  bottom: 5px;
+  bottom: 15px;
   left: 50%;
   font-size: 14px;
   font-family: Poppins, sans-serif;

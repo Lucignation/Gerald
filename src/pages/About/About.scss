@@ -16,16 +16,15 @@
   font-weight: 900;
 }
 .about-main {
-  position: fixed;
+  position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   background-color: $primary;
   color: white;
-  height: auto;
+  height: 100vh;
   padding-bottom: 3%;
-  overflow: hidden;
 }
 
 .about-head-title {

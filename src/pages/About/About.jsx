@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <div className='about-main'>
+    <div className='container-fluid about-main'>
       <motion.div
         initial={{ y: -250 }}
         animate={{ y: 10 }}
