@@ -159,9 +159,9 @@
 
 .footer-date {
   color: $primary-white;
-  position: fixed;
-  bottom: 15px;
-  left: 45%;
+  // position: relative;
+  margin-top: 2%;
+  margin-left: 40%;
   font-size: 14px;
   font-family: Poppins, sans-serif;
 }

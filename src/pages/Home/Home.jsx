@@ -2,6 +2,7 @@ import './Home.scss';
 import withCursor from '../../HOC/withCursor';
 import { FiArrowRight } from 'react-icons/fi';
 import { motion } from 'framer-motion';
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   const date = new Date();
@@ -34,6 +35,7 @@ const Home = () => {
                   type='button'
                   value='MORE ABOUT ME'
                   className='btn-more-padding'
+
                 />
                 <span className='btn-more-icon'>
                   <FiArrowRight />
@@ -42,17 +44,7 @@ const Home = () => {
             </div>
           </div>
         </motion.div>
-        <p className='footer-date'>
-          <span> Handcrafted with ❣️ by </span>
-          <a
-            href='https://www.linkedin.com/in/geraldolumide/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            Gérald Olumide
-          </a>
-          <span>. &#169; {date.getFullYear()} </span>
-        </p>
+        <Footer />
         <div className='black-bg'></div>
         <div className='orange-bg'></div>
       </div>

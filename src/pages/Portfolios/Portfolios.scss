@@ -38,7 +38,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3%;
-  padding: 7%;
+  margin: 7%;
+  padding-bottom: 7%;
+  border-bottom: 1px solid #ffffff2f;
 }
 
 .portfolio-web {
@@ -46,13 +48,13 @@
   position: relative;
 }
 
-.portfolio-web-img {
+.portfolio-web-img img {
   border-radius: 2%;
+  z-index: 1;
 }
 
 .project-detail {
   display: none;
-  opacity: 0;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -60,17 +62,25 @@
   right: 0px;
   width: 100%;
   height: 100%;
-  // position: relative;
   background-color: $primary-second;
   text-align: center;
   padding-top: 10%;
-  // padding: 7%;
-  // padding-top: -100%;
+  z-index: 2;
 }
 
-.portfolio-web-img:hover + .project-detail {
+.portfolio-web-img:hover + .project-detail,
+.project-detail:hover {
   display: block;
-  opacity: 1;
+}
+
+.project-detail::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .project-name-title {
@@ -91,4 +101,36 @@
   background-color: $secondary;
   color: $primary;
   transition: background ease-in-out 0.2s;
+}
+
+.developer-package {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3%;
+  margin: 6%;
+}
+
+.developer-package-title {
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.developer-package-img img {
+  border-radius: 10px;
+  border-color: $primary;
+}
+
+.developer-package-img {
+  border-color: $primary;
+  width: 80%;
+}
+
+.developer-package-desc {
+  font-family: Poppins, sans-serif;
+  padding-top: 10%;
+  width: 80%;
+  line-height: 1.9;
 }

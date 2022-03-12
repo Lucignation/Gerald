@@ -14,10 +14,17 @@ const Portfolio = ({ image, projectName, projectUrl }) => {
           delay: 0.8,
         }}
       >
-        <img src={image} alt={projectName} className='portfolio-web-img' />
+        <div className='portfolio-web-img'>
+          <img src={image} alt={projectName} />
+        </div>
         <div className='project-detail'>
           <h1 className='project-name-title'>{projectName}</h1>
-          <a href={projectUrl} rel='noreferrer' target='_blank' className='project-url'>
+          <a
+            href={projectUrl}
+            rel='noreferrer'
+            target='_blank'
+            className='project-url'
+          >
             VIEW WORK
           </a>
         </div>
