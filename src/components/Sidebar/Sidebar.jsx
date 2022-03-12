@@ -36,10 +36,16 @@ const Sidebar = ({ setId, section }) => {
         <FaEnvelopeOpen />
       </div>
       <div
-        onClick={() => setId('blog')}
+        // onClick={() => setId('blog')}
         className={section === 'blog' ? 'sidebar-icon-active' : 'sidebar-icon'}
       >
-        <FaComments />
+        <a
+          href='https://medium.com/@lucignation'
+          rel='noreferrer'
+          target='_blank'
+        >
+          <FaComments />
+        </a>
       </div>
     </div>
   );
