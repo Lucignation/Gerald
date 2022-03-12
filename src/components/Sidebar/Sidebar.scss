@@ -34,24 +34,28 @@
   .side-bar {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    // grid-gap: 6%;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    grid-gap: 12%;
+    right: 22%;
+    // top: 0%;
+    // right: 0;
+    // left: 0;
+    // bottom: 0;
     background-color: $primary-nav;
-    max-width: 100%;
+    background-size: cover;
+    background-attachment: cover;
+    // width: 100% !important;
     // max-width: 100% !important;
     margin-top: 80%;
     padding-top: 4%;
-    padding-left: 3%;
+    margin-right: 13%;
   }
 
   .sidebar-icon,
   .sidebar-icon-active {
     font-size: 1.2rem;
     margin-bottom: 60%;
-    margin-left: 10%;
-    width: 63%;
-    height: 52%;
+    // margin-left: 10%;
+    // width: 63%;
+    // height: 52%;
   }
 }
