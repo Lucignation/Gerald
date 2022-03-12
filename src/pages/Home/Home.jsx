@@ -43,7 +43,7 @@ const Home = () => {
           </div>
         </motion.div>
         <p className='footer-date'>
-          <span> &#169; {date.getFullYear()} Built with ❣️ by </span>
+          <span> Handcrafted with ❣️ by </span>
           <a
             href='https://www.linkedin.com/in/geraldolumide/'
             target='_blank'
@@ -51,7 +51,7 @@ const Home = () => {
           >
             Gérald Olumide
           </a>
-          <span> </span>
+          <span>. &#169; {date.getFullYear()} </span>
         </p>
         <div className='black-bg'></div>
         <div className='orange-bg'></div>

@@ -4,7 +4,7 @@ import './App.scss';
 import Home from './pages/Home/Home';
 import Sidebar from './components/Sidebar/Sidebar';
 import About from './pages/About/About';
-import Portfolio from './pages/Portfolio/Portfolio';
+import Portfolios from './pages/Portfolios/Portfolios';
 import Contact from './pages/Contact/Contact';
 import Blog from './pages/Blog/Blog';
 import { AnimatePresence } from 'framer-motion';
@@ -23,7 +23,7 @@ const App = () => {
         <Sidebar setId={setId} section={section} />
         {section === 'home' && <Home />}
         {section === 'about' && <About />}
-        {section === 'portfolio' && <Portfolio />}
+        {section === 'portfolio' && <Portfolios />}
         {section === 'contact' && <Contact />}
         {section === 'blog' && <Blog />}
       </CursorProvider>
