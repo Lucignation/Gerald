@@ -1,5 +1,14 @@
 @import '../../../public/css/color.scss';
 
+.about-left-content {
+  display: none;
+}
+
+.about-main {
+  position: relative;
+  max-width: 100% !important;
+}
+
 .bg-title {
   position: absolute;
   font-size: 7rem;
@@ -143,4 +152,88 @@
 .experience-word {
   width: 64%;
   margin-left: 30%;
+}
+
+@media (max-width: 540px) {
+  .about-left-content {
+    display: block;
+  }
+  .bg-title {
+    display: none;
+  }
+
+  .about-head-title {
+    font-size: 2.2rem;
+    text-align: left;
+    padding-left: 5%;
+  }
+  .personal-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 3%;
+  }
+
+  .about-top {
+    grid-template-columns: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    overflow-x: hidden;
+  }
+
+  .personal-infos {
+    margin-top: 10%;
+    width: 97%;
+  }
+
+  .info-value {
+    display: block;
+    color: white;
+  }
+
+  .single-personal-info {
+    margin-bottom: 5%;
+    color: $primary-white;
+  }
+
+  .download-cv {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .about-social {
+    width: 100%;
+    margin-top: -16%;
+    margin-left: 24%;
+    margin-bottom: 40%;
+  }
+
+  .experience-number {
+    font-size: 2.6rem;
+  }
+
+  .single-experience {
+    border: 1px solid #ffffff23;
+    border-radius: 10px;
+    margin-bottom: 20%;
+  }
+
+  .experience-sign {
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-top: -10% !important;
+    vertical-align: baseline;
+  }
+
+  .experience-word {
+    width: 64%;
+    margin-left: 30%;
+    font-size: 1rem;
+  }
+  .download-cv::after {
+    display: none;
+  }
 }

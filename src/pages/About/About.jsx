@@ -25,6 +25,7 @@ const About = () => {
           <div className='about-top'>
             <div>
               <h1 className='personal-title'>PERSONAL INFOS</h1>
+              <div className='left-content about-left-content'></div>
               <div className='personal-infos'>
                 <div>
                   <h2 className='single-personal-info'>
@@ -34,7 +35,7 @@ const About = () => {
                     Freelance: <span className='info-value'>Available</span>
                   </h2>
                   <h2 className='single-personal-info'>
-                    Phone: <span className='info-value'>+234(0)7063427277</span>
+                    Phone: <span className='info-value'>+2347063427277</span>
                   </h2>
                   <h2 className='single-personal-info'>
                     Skype: <span className='info-value'>lucignation</span>
@@ -55,7 +56,7 @@ const About = () => {
                       lucignation@gmail.com
                     </span>
                   </h2>
-                  <h2>
+                  <h2 className='single-personal-info'>
                     Languages:
                     <span className='info-value'> English, French, Yoruba</span>
                   </h2>
