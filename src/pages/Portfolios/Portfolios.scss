@@ -136,6 +136,10 @@
   line-height: 1.9;
 }
 
+.project-url {
+  font-size: 0.9rem;
+}
+
 @media (max-width: 540px) {
   .portfolio-head-title {
     font-size: 2.2rem;
@@ -173,5 +177,10 @@
 
   .developer-p {
     display: block;
+  }
+
+  .project-name-title {
+    font-size: 1.5rem;
+    margin-bottom: 7%;
   }
 }
