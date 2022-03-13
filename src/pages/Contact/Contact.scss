@@ -63,3 +63,31 @@
   font-size: 1.2rem;
   margin-bottom: 3%;
 }
+
+@media (max-width: 540px) {
+  .contact-info {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0%;
+    margin: 7%;
+  }
+
+  .maps iframe {
+    width: 100% !important;
+  }
+  .contact-info-title {
+    font-size: 1.4em;
+  }
+  .contact-info-desc-lower {
+    font-size: 1;
+    line-height: 1.7;
+  }
+
+  .map-info {
+    margin-bottom: 10%;
+    margin-top: 20%;
+  }
+
+  .maps {
+    margin-bottom: 30%;
+  }
+}

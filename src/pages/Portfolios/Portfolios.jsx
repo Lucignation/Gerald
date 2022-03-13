@@ -79,7 +79,7 @@ const Portfolios = () => {
         <div className='developer-package'>
           <div className='developer-package-desc'>
             <h1 className='developer-package-title'>
-              For <span className='about-me'>Developers</span>
+              For <span className='about-me developer-p'>Developers</span>
             </h1>
             <p className='developer-package-lower'>
               Built by a developer for developers. React package that allows you
