@@ -33,30 +33,26 @@
 @media (max-width: 540px) {
   .side-bar {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 12%;
-    right: 22%;
-    // top: 0%;
-    // right: 0;
-    // left: 0;
-    // bottom: 0%;
-    // background-color: $primary-nav;
-    background-size: cover;
-    background-attachment: cover;
-    // width: 100% !important;
-    // max-width: 100% !important;
-    margin-top: 110%;
-    // padding-top: 4%;
-    margin-right: 13%;
-    z-index: 6000;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    left: 0;
+    // right: inherit;
+    right: 0;
+    // grid-gap: 8%;
+    background-color: $primary-nav;
+    padding: 3%;
+    justify-content: space-around;
+    top: 98%;
+    z-index: 6600;
   }
 
   .sidebar-icon,
   .sidebar-icon-active {
-    font-size: 1.2rem;
-    margin-bottom: 60%;
+    font-size: 1.3rem;
+    margin-bottom: 0%;
+    // left: 14%;
+    left: inherit;
     // margin-left: 10%;
-    // width: 63%;
-    // height: 52%;
+    width: 60%;
+    height: 95%;
   }
 }
