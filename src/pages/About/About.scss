@@ -158,6 +158,10 @@
   .about-left-content {
     display: block;
   }
+
+  .about-main {
+    padding-bottom: 20%;
+  }
   .bg-title {
     display: none;
   }
@@ -176,8 +180,8 @@
 
   .about-top {
     grid-template-columns: 100%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
     overflow-x: hidden;
   }
 
