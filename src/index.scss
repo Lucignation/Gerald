@@ -36,11 +36,20 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+@media screen and (max-width: 767px) {
+  .sp-widget.sp-is-embed-type-slide-in.sp-is-launcher-type-superpeer-logo {
+    bottom: 120px;
+    // max-height: calc(100% - 92px);
+  }
+  .sp-widget-launcher {
+    bottom: 62px;
+  }
+}
 
 @media (max-width: 540px) {
   .sp-widget-launcher.sp-is-launcher-type-superpeer-logo,
   .sp-widget-launcher,
   .sp-widget-launcher-close {
-    margin-top: -50% !important;
+    margin-top: -25% !important;
   }
 }

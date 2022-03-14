@@ -506,6 +506,13 @@ body {
   overflow-y: hidden;
 }
 
+@media screen and (max-width: 767px){
+  .sp-widget.sp-is-embed-type-slide-in.sp-is-launcher-type-superpeer-logo {
+    bottom: 96px;
+    max-height: calc(100% - 92px);
+  }
+}
+
 @media (max-width: 540px) {
   .sp-widget-launcher.sp-is-launcher-type-superpeer-logo,
   .sp-widget-launcher,
