@@ -9,7 +9,7 @@ const Portfolios = () => {
     {
       id: 1,
       projectName: 'KreateSell',
-      projectUrl: 'https://dev.kreatesell.com/',
+      projectUrl: 'https://kreatesell.com/',
       image:
         'https://res.cloudinary.com/lucignation/image/upload/v1647089793/samples/Screen_Shot_2022-03-12_at_1.56.08_PM_l4abdu.png',
     },
